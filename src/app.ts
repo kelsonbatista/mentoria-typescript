@@ -63,7 +63,7 @@ function validateLoginButton() {
 }
 
 class HttpClient {
-  static async get(param: {url: string, method: string, body: object | string | null }): Promise<object> {
+  static async get(param: {url: string, method: string, body: object | string | null }): Promise<unknown> {
     return new Promise((resolve, reject) => {
       let request = new XMLHttpRequest();
       request.open(param.method, param.url, true);
