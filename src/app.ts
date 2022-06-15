@@ -5,7 +5,7 @@ let password: string;
 let sessionId: string;
 let listId: string = '7101979';
 
-let requestToken: object;
+let requestToken: string;
 
 let loginButton = document.getElementById('login-button') as HTMLButtonElement;
 let searchButton = document.getElementById('search-button') as HTMLButtonElement;
